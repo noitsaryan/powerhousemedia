@@ -1,10 +1,11 @@
+import Hero from '@/components/Body/Hero'
 import React from 'react'
 
 function page() {
   return (
-    <>
-      Home
-    </>
+    <main>
+      <Hero/>
+    </main>
   )
 }
 
